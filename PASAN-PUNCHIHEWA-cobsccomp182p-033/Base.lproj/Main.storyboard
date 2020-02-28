@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="40" id="nbH-Y5-4Yz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Signup"/>
+                                <state key="normal" title="Sign Up"/>
                                 <connections>
                                     <segue destination="kMg-Dd-pEv" kind="show" id="eNv-Dz-4gF"/>
                                 </connections>
@@ -236,16 +236,16 @@
             </objects>
             <point key="canvasLocation" x="1479.7101449275362" y="-277.23214285714283"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Vht-lH-NU2">
             <objects>
-                <viewController id="xwC-L1-sVd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="HomeVC" id="zIX-2U-XXU" customClass="HomeViewController1">
+                <viewController storyboardIdentifier="HomeVC" id="xwC-L1-sVd" customClass="HomeViewController" customModule="PASAN_PUNCHIHEWA_cobsccomp182p_033" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zIX-2U-XXU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yl-fN-ICK">
-                                <rect key="frame" x="169.5" y="437.5" width="75.5" height="21"/>
+                                <rect key="frame" x="169" y="437.5" width="76" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

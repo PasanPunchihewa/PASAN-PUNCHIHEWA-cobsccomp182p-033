@@ -22,6 +22,7 @@
 		7F6F462923F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F462823F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift */; };
 		7F6F463423F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */; };
 		7F99C2FD2409530C002E7DB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99C2FC2409530C002E7DB0 /* Constants.swift */; };
+		7F99C30124097296002E7DB0 /* NIBM Promo Vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F99C30024097296002E7DB0 /* NIBM Promo Vid.mp4 */; };
 		7FE0D8092409402200D538B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FE0D8082409402200D538B7 /* GoogleService-Info.plist */; };
 		7FFC35EF24042314007D8BD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC35EE24042314007D8BD7 /* HomeViewController.swift */; };
 		CC539F7811961F242D5DFB50 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C678E7EECB2D0F3B0D2CE0 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework */; };
@@ -70,6 +71,7 @@
 		7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift; sourceTree = "<group>"; };
 		7F6F463523F7CCEE005D70F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F99C2FC2409530C002E7DB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7F99C30024097296002E7DB0 /* NIBM Promo Vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NIBM Promo Vid.mp4"; sourceTree = "<group>"; };
 		7FE0D8082409402200D538B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7FFC35EE24042314007D8BD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A7C678E7EECB2D0F3B0D2CE0 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 		7F32E268240915D200BC0080 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				7F99C30024097296002E7DB0 /* NIBM Promo Vid.mp4 */,
 				7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */,
 			);
 			path = Media;
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6F461E23F7CCED005D70F6 /* LaunchScreen.storyboard in Resources */,
+				7F99C30124097296002E7DB0 /* NIBM Promo Vid.mp4 in Resources */,
 				7F6F461B23F7CCED005D70F6 /* Assets.xcassets in Resources */,
 				7FE0D8092409402200D538B7 /* GoogleService-Info.plist in Resources */,
 				7F32E26A2409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png in Resources */,
