@@ -1,0 +1,6 @@
+framework module Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033 {
+  umbrella header "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-umbrella.h"
+
+  export *
+  module * { export * }
+}

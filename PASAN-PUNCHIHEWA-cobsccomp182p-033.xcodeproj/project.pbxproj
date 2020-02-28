@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A56C0AB1017EFE39804AF5E /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D00778A2A9B5DEDD76134E6 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework */; };
+		72C37EFD9E7CA5B496269115 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C3F8315AD2FDCF73A9215D /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework */; };
+		7F0D042D2406B45D008492CB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D042C2406B45D008492CB /* Utilities.swift */; };
+		7F32E26A2409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */; };
+		7F32E26E24092DEF00BC0080 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32E26D24092DEF00BC0080 /* SigninViewController.swift */; };
+		7F32E27024092ED500BC0080 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32E26F24092ED500BC0080 /* SignupViewController.swift */; };
 		7F6F461123F7CCEB005D70F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F461023F7CCEB005D70F6 /* AppDelegate.swift */; };
 		7F6F461323F7CCEB005D70F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F461223F7CCEB005D70F6 /* ViewController.swift */; };
 		7F6F461623F7CCEB005D70F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F461423F7CCEB005D70F6 /* Main.storyboard */; };
@@ -15,6 +21,10 @@
 		7F6F461E23F7CCED005D70F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F461C23F7CCED005D70F6 /* LaunchScreen.storyboard */; };
 		7F6F462923F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F462823F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift */; };
 		7F6F463423F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */; };
+		7F99C2FD2409530C002E7DB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99C2FC2409530C002E7DB0 /* Constants.swift */; };
+		7FE0D8092409402200D538B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FE0D8082409402200D538B7 /* GoogleService-Info.plist */; };
+		7FFC35EF24042314007D8BD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC35EE24042314007D8BD7 /* HomeViewController.swift */; };
+		CC539F7811961F242D5DFB50 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C678E7EECB2D0F3B0D2CE0 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30288792165900EC29A1E240 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.release.xcconfig"; path = "Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.release.xcconfig"; sourceTree = "<group>"; };
+		36AFDE48CF35CFB22835B70E /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.debug.xcconfig"; path = "Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.debug.xcconfig"; sourceTree = "<group>"; };
+		3B8A66A346DDF784D72E3170 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.release.xcconfig"; path = "Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.release.xcconfig"; sourceTree = "<group>"; };
+		44CD0C3E5D369F2C068E7F59 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.debug.xcconfig"; path = "Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62C3F8315AD2FDCF73A9215D /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D00778A2A9B5DEDD76134E6 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0D042C2406B45D008492CB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = National_Institute_of_Business_Management_Logo.png; sourceTree = "<group>"; };
+		7F32E26D24092DEF00BC0080 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		7F32E26F24092ED500BC0080 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		7F6F460D23F7CCEB005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PASAN-PUNCHIHEWA-cobsccomp182p-033.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6F461023F7CCEB005D70F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F6F461223F7CCEB005D70F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +69,12 @@
 		7F6F462F23F7CCEE005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift; sourceTree = "<group>"; };
 		7F6F463523F7CCEE005D70F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F99C2FC2409530C002E7DB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7FE0D8082409402200D538B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FFC35EE24042314007D8BD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A7C678E7EECB2D0F3B0D2CE0 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19EA5BC0A23EA8A77ED727 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig"; path = "Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F775162BF0A76BB3DEDA0259 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.release.xcconfig"; path = "Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC539F7811961F242D5DFB50 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C37EFD9E7CA5B496269115 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A56C0AB1017EFE39804AF5E /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E52C708A6BE2D0D4CEEF92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7C678E7EECB2D0F3B0D2CE0 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework */,
+				7D00778A2A9B5DEDD76134E6 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework */,
+				62C3F8315AD2FDCF73A9215D /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75810B5A4FC213F12AE60879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36AFDE48CF35CFB22835B70E /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.debug.xcconfig */,
+				3B8A66A346DDF784D72E3170 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.release.xcconfig */,
+				44CD0C3E5D369F2C068E7F59 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.debug.xcconfig */,
+				30288792165900EC29A1E240 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.release.xcconfig */,
+				AE19EA5BC0A23EA8A77ED727 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig */,
+				F775162BF0A76BB3DEDA0259 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F0D042B2406B431008492CB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7F0D042C2406B45D008492CB /* Utilities.swift */,
+				7F99C2FC2409530C002E7DB0 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7F32E268240915D200BC0080 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		7F344267240433A800123D5B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F461223F7CCEB005D70F6 /* ViewController.swift */,
+				7FFC35EE24042314007D8BD7 /* HomeViewController.swift */,
+				7F32E26D24092DEF00BC0080 /* SigninViewController.swift */,
+				7F32E26F24092ED500BC0080 /* SignupViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		7F6F460423F7CCEA005D70F6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +163,8 @@
 				7F6F462723F7CCED005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033Tests */,
 				7F6F463223F7CCEE005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033UITests */,
 				7F6F460E23F7CCEB005D70F6 /* Products */,
+				75810B5A4FC213F12AE60879 /* Pods */,
+				4E52C708A6BE2D0D4CEEF92C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +181,14 @@
 		7F6F460F23F7CCEB005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033 */ = {
 			isa = PBXGroup;
 			children = (
+				7F32E268240915D200BC0080 /* Media */,
+				7F0D042B2406B431008492CB /* Helpers */,
 				7F6F461023F7CCEB005D70F6 /* AppDelegate.swift */,
-				7F6F461223F7CCEB005D70F6 /* ViewController.swift */,
 				7F6F461423F7CCEB005D70F6 /* Main.storyboard */,
+				7F344267240433A800123D5B /* View Controllers */,
 				7F6F461A23F7CCED005D70F6 /* Assets.xcassets */,
 				7F6F461C23F7CCED005D70F6 /* LaunchScreen.storyboard */,
+				7FE0D8082409402200D538B7 /* GoogleService-Info.plist */,
 				7F6F461F23F7CCED005D70F6 /* Info.plist */,
 				7F6F461723F7CCEB005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033.xcdatamodeld */,
 			);
@@ -135,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F6F463823F7CCEE005D70F6 /* Build configuration list for PBXNativeTarget "PASAN-PUNCHIHEWA-cobsccomp182p-033" */;
 			buildPhases = (
+				204A46CF738D0D9693D66B52 /* [CP] Check Pods Manifest.lock */,
 				7F6F460923F7CCEA005D70F6 /* Sources */,
 				7F6F460A23F7CCEA005D70F6 /* Frameworks */,
 				7F6F460B23F7CCEA005D70F6 /* Resources */,
+				1F5BB08B8EF31B3BE61DFB8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F6F463B23F7CCEE005D70F6 /* Build configuration list for PBXNativeTarget "PASAN-PUNCHIHEWA-cobsccomp182p-033Tests" */;
 			buildPhases = (
+				029A0ADC0CBF14C143F820AC /* [CP] Check Pods Manifest.lock */,
 				7F6F462023F7CCED005D70F6 /* Sources */,
 				7F6F462123F7CCED005D70F6 /* Frameworks */,
 				7F6F462223F7CCED005D70F6 /* Resources */,
@@ -170,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F6F463E23F7CCEE005D70F6 /* Build configuration list for PBXNativeTarget "PASAN-PUNCHIHEWA-cobsccomp182p-033UITests" */;
 			buildPhases = (
+				47F2C4CAF482C722463B2B48 /* [CP] Check Pods Manifest.lock */,
 				7F6F462B23F7CCEE005D70F6 /* Sources */,
 				7F6F462C23F7CCEE005D70F6 /* Frameworks */,
 				7F6F462D23F7CCEE005D70F6 /* Resources */,
+				6DC66FDE0FC07A39F3E1DD64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +324,8 @@
 			files = (
 				7F6F461E23F7CCED005D70F6 /* LaunchScreen.storyboard in Resources */,
 				7F6F461B23F7CCED005D70F6 /* Assets.xcassets in Resources */,
+				7FE0D8092409402200D538B7 /* GoogleService-Info.plist in Resources */,
+				7F32E26A2409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png in Resources */,
 				7F6F461623F7CCEB005D70F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +346,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		029A0ADC0CBF14C143F820AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F5BB08B8EF31B3BE61DFB8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204A46CF738D0D9693D66B52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47F2C4CAF482C722463B2B48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC66FDE0FC07A39F3E1DD64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F6F460923F7CCEA005D70F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F6F461323F7CCEB005D70F6 /* ViewController.swift in Sources */,
+				7F32E27024092ED500BC0080 /* SignupViewController.swift in Sources */,
+				7F0D042D2406B45D008492CB /* Utilities.swift in Sources */,
+				7F32E26E24092DEF00BC0080 /* SigninViewController.swift in Sources */,
 				7F6F461923F7CCEB005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033.xcdatamodeld in Sources */,
 				7F6F461123F7CCEB005D70F6 /* AppDelegate.swift in Sources */,
+				7FFC35EF24042314007D8BD7 /* HomeViewController.swift in Sources */,
+				7F99C2FD2409530C002E7DB0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +634,7 @@
 		};
 		7F6F463923F7CCEE005D70F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AFDE48CF35CFB22835B70E /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +652,7 @@
 		};
 		7F6F463A23F7CCEE005D70F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8A66A346DDF784D72E3170 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +670,7 @@
 		};
 		7F6F463C23F7CCEE005D70F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE19EA5BC0A23EA8A77ED727 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		7F6F463D23F7CCEE005D70F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F775162BF0A76BB3DEDA0259 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +712,7 @@
 		};
 		7F6F463F23F7CCEE005D70F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CD0C3E5D369F2C068E7F59 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +732,7 @@
 		};
 		7F6F464023F7CCEE005D70F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30288792165900EC29A1E240 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

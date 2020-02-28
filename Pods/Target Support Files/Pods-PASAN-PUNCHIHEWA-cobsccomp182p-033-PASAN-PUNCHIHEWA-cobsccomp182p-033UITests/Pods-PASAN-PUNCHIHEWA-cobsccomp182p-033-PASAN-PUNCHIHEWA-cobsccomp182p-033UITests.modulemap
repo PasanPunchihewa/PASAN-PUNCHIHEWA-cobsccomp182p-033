@@ -1,0 +1,6 @@
+framework module Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests {
+  umbrella header "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033-PASAN-PUNCHIHEWA-cobsccomp182p-033UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
