@@ -20,5 +20,6 @@ target 'PASAN-PUNCHIHEWA-cobsccomp182p-033' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
+	pod 'Firebase/Database'
 	
 end

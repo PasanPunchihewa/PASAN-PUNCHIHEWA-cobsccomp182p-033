@@ -7,18 +7,27 @@
 //
 import Foundation
 import UIKit
+import FirebaseDatabase
+
+
 
 class AddEventViewController: UIViewController {
     @IBOutlet weak var EventInfotxt: UITextView!
+    
+    
     
     @IBAction func AddEventBtn(_ sender: Any) {
     }
     @IBAction func cancelBtn(_ sender: Any) {
     }
     
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+       
         // Do any additional setup after loading the view.
     }
     
