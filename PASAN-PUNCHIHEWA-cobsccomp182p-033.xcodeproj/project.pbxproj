@@ -24,6 +24,9 @@
 		7F99C2FD2409530C002E7DB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99C2FC2409530C002E7DB0 /* Constants.swift */; };
 		7F99C30124097296002E7DB0 /* NIBM Promo Vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F99C30024097296002E7DB0 /* NIBM Promo Vid.mp4 */; };
 		7FE0D8092409402200D538B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FE0D8082409402200D538B7 /* GoogleService-Info.plist */; };
+		7FED46E4240C0342004BAA66 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED46E3240C0342004BAA66 /* EventViewController.swift */; };
+		7FED46E6240C0617004BAA66 /* Nametags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED46E5240C0617004BAA66 /* Nametags.swift */; };
+		7FED46E8240C11A1004BAA66 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED46E7240C11A1004BAA66 /* AddEventViewController.swift */; };
 		7FFC35EF24042314007D8BD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC35EE24042314007D8BD7 /* HomeViewController.swift */; };
 		CC539F7811961F242D5DFB50 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C678E7EECB2D0F3B0D2CE0 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +76,9 @@
 		7F99C2FC2409530C002E7DB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7F99C30024097296002E7DB0 /* NIBM Promo Vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NIBM Promo Vid.mp4"; sourceTree = "<group>"; };
 		7FE0D8082409402200D538B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FED46E3240C0342004BAA66 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		7FED46E5240C0617004BAA66 /* Nametags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nametags.swift; sourceTree = "<group>"; };
+		7FED46E7240C11A1004BAA66 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 		7FFC35EE24042314007D8BD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A7C678E7EECB2D0F3B0D2CE0 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE19EA5BC0A23EA8A77ED727 /* Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig"; path = "Target Support Files/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests/Pods-PASAN-PUNCHIHEWA-cobsccomp182p-033Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +141,7 @@
 			children = (
 				7F0D042C2406B45D008492CB /* Utilities.swift */,
 				7F99C2FC2409530C002E7DB0 /* Constants.swift */,
+				7FED46E5240C0617004BAA66 /* Nametags.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -155,6 +162,8 @@
 				7FFC35EE24042314007D8BD7 /* HomeViewController.swift */,
 				7F32E26D24092DEF00BC0080 /* SigninViewController.swift */,
 				7F32E26F24092ED500BC0080 /* SignupViewController.swift */,
+				7FED46E3240C0342004BAA66 /* EventViewController.swift */,
+				7FED46E7240C11A1004BAA66 /* AddEventViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -459,10 +468,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6F461323F7CCEB005D70F6 /* ViewController.swift in Sources */,
+				7FED46E6240C0617004BAA66 /* Nametags.swift in Sources */,
 				7F32E27024092ED500BC0080 /* SignupViewController.swift in Sources */,
 				7F0D042D2406B45D008492CB /* Utilities.swift in Sources */,
 				7F32E26E24092DEF00BC0080 /* SigninViewController.swift in Sources */,
 				7F6F461923F7CCEB005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033.xcdatamodeld in Sources */,
+				7FED46E4240C0342004BAA66 /* EventViewController.swift in Sources */,
+				7FED46E8240C11A1004BAA66 /* AddEventViewController.swift in Sources */,
 				7F6F461123F7CCEB005D70F6 /* AppDelegate.swift in Sources */,
 				7FFC35EF24042314007D8BD7 /* HomeViewController.swift in Sources */,
 				7F99C2FD2409530C002E7DB0 /* Constants.swift in Sources */,

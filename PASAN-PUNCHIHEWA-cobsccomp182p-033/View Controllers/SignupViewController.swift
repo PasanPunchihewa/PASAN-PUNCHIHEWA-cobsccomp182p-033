@@ -68,7 +68,7 @@ class SignupViewController: UIViewController {
         
         if Utilities.isPasswordValid(cleanedPassword) == false {
             // Password isn't secure enough
-            return "Please make sure your password is at least 8 characters, contains a special character and a number."
+            return "Password must be at least 8 characters, contains a special character and a number."
         }
         
         
@@ -106,7 +106,7 @@ class SignupViewController: UIViewController {
                 else {
                     
                     
-                    // User was created successfully, now store the first name and last name
+                    // User  created successfully, now store the first name and last name
                     let db = Firestore.firestore()
                     
                     db.collection("users").addDocument(data: ["firstname":firstName, "lastname":lastName, "uid": result!.user.uid ]) { (error) in
