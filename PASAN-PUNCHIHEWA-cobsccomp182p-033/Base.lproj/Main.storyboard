@@ -379,13 +379,20 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXd-V4-Vrt">
+                                <rect key="frame" x="20" y="188" width="374" height="30"/>
+                                <state key="normal" title="My Events"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pBr-wH-Qh5" firstAttribute="leading" secondItem="aC0-ng-cdf" secondAttribute="leading" symbolic="YES" id="DcJ-Wa-Ag4"/>
+                            <constraint firstItem="jXd-V4-Vrt" firstAttribute="leading" secondItem="jfk-71-JFb" secondAttribute="leading" constant="20" id="Fyn-uC-cqR"/>
                             <constraint firstItem="pBr-wH-Qh5" firstAttribute="top" secondItem="jfk-71-JFb" secondAttribute="top" id="IEt-hX-mpX"/>
+                            <constraint firstItem="jXd-V4-Vrt" firstAttribute="top" secondItem="SZr-mK-Ddu" secondAttribute="bottom" constant="20" id="Nrh-H1-t6W"/>
                             <constraint firstItem="SZr-mK-Ddu" firstAttribute="leading" secondItem="jfk-71-JFb" secondAttribute="leading" constant="40" id="af6-Lx-dsc"/>
                             <constraint firstItem="jfk-71-JFb" firstAttribute="trailing" secondItem="pBr-wH-Qh5" secondAttribute="trailing" id="agd-Lg-5ry"/>
+                            <constraint firstItem="jfk-71-JFb" firstAttribute="trailing" secondItem="jXd-V4-Vrt" secondAttribute="trailing" constant="20" id="fT1-ok-FQa"/>
                             <constraint firstItem="SZr-mK-Ddu" firstAttribute="top" secondItem="pBr-wH-Qh5" secondAttribute="bottom" constant="40" id="lz1-PP-cJ0"/>
                             <constraint firstItem="jfk-71-JFb" firstAttribute="trailing" secondItem="SZr-mK-Ddu" secondAttribute="trailing" constant="40" id="xTc-GD-kan"/>
                         </constraints>
@@ -488,6 +495,13 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="EventView" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e9V-Z8-bls">
                                 <rect key="frame" x="20" y="116" width="374" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="egP-RP-Gob">
+                                    <rect key="frame" x="0.0" y="111" width="374" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="83" id="eIH-Ky-uVd">
                                         <rect key="frame" x="0.0" y="28" width="374" height="83"/>
@@ -587,6 +601,6 @@
         <image name="National_Institute_of_Business_Management_Logo.png" width="300" height="172"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iz6-Ch-DGc"/>
+        <segue reference="lpq-2d-wu4"/>
     </inferredMetricsTieBreakers>
 </document>
