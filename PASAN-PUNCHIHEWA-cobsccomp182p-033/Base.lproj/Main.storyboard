@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="National_Institute_of_Business_Management_Logo.png" highlightedImage="National_Institute_of_Business_Management_Logo.png" highlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hR-yX-ONY">
-                                <rect key="frame" x="40" y="138" width="334" height="16"/>
+                                <rect key="frame" x="40" y="138" width="334" height="172"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asq-RL-CwG">
                                 <rect key="frame" x="40" y="722" width="334" height="40"/>
@@ -350,11 +350,45 @@
         <!--My Events-->
         <scene sceneID="Azk-2C-p9q">
             <objects>
-                <viewController id="gGD-Uv-Unj" sceneMemberID="viewController">
+                <viewController id="gGD-Uv-Unj" customClass="MyEventViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aC0-ng-cdf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZr-mK-Ddu">
+                                <rect key="frame" x="40" y="128" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BNy-Fx-cn9"/>
+                                </constraints>
+                                <state key="normal" title="Create Event"/>
+                                <connections>
+                                    <segue destination="mds-wp-7d4" kind="show" id="lpq-2d-wu4"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBr-wH-Qh5">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="My Events" id="FWc-9h-gXB">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Uxc-Dr-KSs">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CiQ-K7-Tje">
+                                                <rect key="frame" x="20" y="7" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Sign Out"/>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pBr-wH-Qh5" firstAttribute="leading" secondItem="aC0-ng-cdf" secondAttribute="leading" symbolic="YES" id="DcJ-Wa-Ag4"/>
+                            <constraint firstItem="pBr-wH-Qh5" firstAttribute="top" secondItem="jfk-71-JFb" secondAttribute="top" id="IEt-hX-mpX"/>
+                            <constraint firstItem="SZr-mK-Ddu" firstAttribute="leading" secondItem="jfk-71-JFb" secondAttribute="leading" constant="40" id="af6-Lx-dsc"/>
+                            <constraint firstItem="jfk-71-JFb" firstAttribute="trailing" secondItem="pBr-wH-Qh5" secondAttribute="trailing" id="agd-Lg-5ry"/>
+                            <constraint firstItem="SZr-mK-Ddu" firstAttribute="top" secondItem="pBr-wH-Qh5" secondAttribute="bottom" constant="40" id="lz1-PP-cJ0"/>
+                            <constraint firstItem="jfk-71-JFb" firstAttribute="trailing" secondItem="SZr-mK-Ddu" secondAttribute="trailing" constant="40" id="xTc-GD-kan"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jfk-71-JFb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="My Events" id="6cN-nK-X6d"/>
@@ -391,6 +425,25 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rVV-jz-tZT">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">test
+        test
+        test
+        
+        test
+        test
+        test
+        
+        test
+        test
+        test
+        
+        test
+        test
+        test
+        
+        test
+        test
+        test</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -418,13 +471,13 @@
         <!--Events-->
         <scene sceneID="oiY-Q9-2nF">
             <objects>
-                <viewController id="xEY-oo-I5N" customClass="EventViewController" customModule="PASAN_PUNCHIHEWA_cobsccomp182p_033" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xEY-oo-I5N" customClass="EventHomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NGh-W7-iaz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="EventView" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e9V-Z8-bls">
-                                <rect key="frame" x="20" y="64" width="374" height="699"/>
+                                <rect key="frame" x="20" y="116" width="374" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="83" id="eIH-Ky-uVd">
@@ -437,17 +490,31 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bql-tO-wFs">
+                                <rect key="frame" x="0.0" y="70" width="414" height="44"/>
+                                <items>
+                                    <navigationItem id="Lxg-P1-U0c">
+                                        <barButtonItem key="leftBarButtonItem" title="Sign Out" style="plain" id="hAj-zr-SsK"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Sfd-MP-DYi" firstAttribute="trailing" secondItem="e9V-Z8-bls" secondAttribute="trailing" constant="20" id="2HO-lQ-efW"/>
                             <constraint firstItem="Sfd-MP-DYi" firstAttribute="bottom" secondItem="e9V-Z8-bls" secondAttribute="bottom" constant="50" id="3vp-3J-Ypw"/>
-                            <constraint firstItem="e9V-Z8-bls" firstAttribute="top" secondItem="Sfd-MP-DYi" secondAttribute="top" constant="20" id="Kp6-LW-SZd"/>
+                            <constraint firstItem="bql-tO-wFs" firstAttribute="top" secondItem="Sfd-MP-DYi" secondAttribute="top" constant="26" id="5t9-dY-V6i"/>
+                            <constraint firstAttribute="trailing" secondItem="bql-tO-wFs" secondAttribute="trailing" symbolic="YES" id="D6h-iE-CzL"/>
+                            <constraint firstItem="e9V-Z8-bls" firstAttribute="top" secondItem="bql-tO-wFs" secondAttribute="bottom" constant="2" id="LIu-ua-PVU"/>
+                            <constraint firstItem="bql-tO-wFs" firstAttribute="leading" secondItem="Sfd-MP-DYi" secondAttribute="leading" id="aIN-4J-QlX"/>
                             <constraint firstItem="e9V-Z8-bls" firstAttribute="leading" secondItem="Sfd-MP-DYi" secondAttribute="leading" constant="20" id="tJ5-lo-nN9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Sfd-MP-DYi"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Events" badgeValue="1" id="igj-tE-uyl"/>
+                    <connections>
+                        <outlet property="TableView" destination="e9V-Z8-bls" id="He5-eB-eWB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mgh-Rh-uem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

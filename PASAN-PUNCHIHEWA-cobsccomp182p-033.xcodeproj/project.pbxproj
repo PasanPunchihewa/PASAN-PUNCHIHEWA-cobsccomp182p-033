@@ -10,7 +10,9 @@
 		4A56C0AB1017EFE39804AF5E /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D00778A2A9B5DEDD76134E6 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework */; };
 		72C37EFD9E7CA5B496269115 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C3F8315AD2FDCF73A9215D /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework */; };
 		7F0383C3240CDA41002A614B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0383C2240CDA41002A614B /* ResetPasswordViewController.swift */; };
+		7F0383C5240CE205002A614B /* MyEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0383C4240CE205002A614B /* MyEventViewController.swift */; };
 		7F0D042D2406B45D008492CB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D042C2406B45D008492CB /* Utilities.swift */; };
+		7F24144D240D23C8001BD257 /* EventHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24144C240D23C8001BD257 /* EventHomeViewController.swift */; };
 		7F32E26A2409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */; };
 		7F32E26E24092DEF00BC0080 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32E26D24092DEF00BC0080 /* SigninViewController.swift */; };
 		7F32E27024092ED500BC0080 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32E26F24092ED500BC0080 /* SignupViewController.swift */; };
@@ -57,7 +59,9 @@
 		62C3F8315AD2FDCF73A9215D /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D00778A2A9B5DEDD76134E6 /* Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PASAN_PUNCHIHEWA_cobsccomp182p_033_PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0383C2240CDA41002A614B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		7F0383C4240CE205002A614B /* MyEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventViewController.swift; sourceTree = "<group>"; };
 		7F0D042C2406B45D008492CB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7F24144C240D23C8001BD257 /* EventHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHomeViewController.swift; sourceTree = "<group>"; };
 		7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = National_Institute_of_Business_Management_Logo.png; sourceTree = "<group>"; };
 		7F32E26D24092DEF00BC0080 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		7F32E26F24092ED500BC0080 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 				7FED46E3240C0342004BAA66 /* EventViewController.swift */,
 				7FED46E7240C11A1004BAA66 /* AddEventViewController.swift */,
 				7F0383C2240CDA41002A614B /* ResetPasswordViewController.swift */,
+				7F0383C4240CE205002A614B /* MyEventViewController.swift */,
+				7F24144C240D23C8001BD257 /* EventHomeViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -470,9 +476,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0383C5240CE205002A614B /* MyEventViewController.swift in Sources */,
 				7F6F461323F7CCEB005D70F6 /* ViewController.swift in Sources */,
 				7FED46E6240C0617004BAA66 /* Nametags.swift in Sources */,
 				7F32E27024092ED500BC0080 /* SignupViewController.swift in Sources */,
+				7F24144D240D23C8001BD257 /* EventHomeViewController.swift in Sources */,
 				7F0383C3240CDA41002A614B /* ResetPasswordViewController.swift in Sources */,
 				7F0D042D2406B45D008492CB /* Utilities.swift in Sources */,
 				7F32E26E24092DEF00BC0080 /* SigninViewController.swift in Sources */,
