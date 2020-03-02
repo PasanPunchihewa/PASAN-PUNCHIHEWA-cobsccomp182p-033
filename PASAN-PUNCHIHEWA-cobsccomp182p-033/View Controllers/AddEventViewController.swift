@@ -21,8 +21,14 @@ class AddEventViewController: UIViewController {
     @IBAction func cancelBtn(_ sender: Any) {
     }
     
-   
+    @IBAction func EventNameTxt(_ sender: Any) {
+    }
     
+    @IBAction func EventSummerytxt(_ sender: Any) {
+    }
+    
+    @IBAction func EventLocationTxt(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,7 +39,25 @@ class AddEventViewController: UIViewController {
     
     @IBAction func AddEvent(_ sender: Any) {
         
-        presentingViewController?.dismiss(animated: true, completion: nil)
+       presentingViewController?.dismiss(animated: true, completion: nil)
+        
+//        if (txtFirstName.text == "") {
+//            alert.showAlert(title: "Event", message: "First Name Required:",buttonText: "Add Missing Event")
+//            return
+//        }
+//
+//        if (txtLastName.text == ""){
+//            alert.showAlert(title: "Event", message: "Lasr Name Required:",buttonText: "Add Missing Event")
+//            return
+//        }
+//        if (txtContact.text == ""){
+//            alert.showAlert(title: "Event", message: "Contact Required:",buttonText: "Add Missing Event")
+//            return
+//        }
+//        if (txtDepartment.text == ""){
+//            alert.showAlert(title: "Event", message: "Department Required:",buttonText: "Add Missing Event")
+//            return
+//        }
     }
     
     @IBAction func CancelEventClicked(_ sender: Any) {
