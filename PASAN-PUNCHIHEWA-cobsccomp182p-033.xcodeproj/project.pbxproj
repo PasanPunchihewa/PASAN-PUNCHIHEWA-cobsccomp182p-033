@@ -14,6 +14,9 @@
 		7F32E26A2409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */; };
 		7F32E26E24092DEF00BC0080 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32E26D24092DEF00BC0080 /* SigninViewController.swift */; };
 		7F32E27024092ED500BC0080 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32E26F24092ED500BC0080 /* SignupViewController.swift */; };
+		7F6D6E0E240E45AF0002D8D8 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D6E0D240E45AF0002D8D8 /* EventCell.swift */; };
+		7F6D6E10240E465A0002D8D8 /* EventShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D6E0F240E465A0002D8D8 /* EventShow.swift */; };
+		7F6D6E12240E4E9F0002D8D8 /* EventShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D6E11240E4E9F0002D8D8 /* EventShowTableViewController.swift */; };
 		7F6F461123F7CCEB005D70F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F461023F7CCEB005D70F6 /* AppDelegate.swift */; };
 		7F6F461323F7CCEB005D70F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F461223F7CCEB005D70F6 /* ViewController.swift */; };
 		7F6F461623F7CCEB005D70F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F461423F7CCEB005D70F6 /* Main.storyboard */; };
@@ -22,7 +25,6 @@
 		7F6F461E23F7CCED005D70F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F461C23F7CCED005D70F6 /* LaunchScreen.storyboard */; };
 		7F6F462923F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F462823F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift */; };
 		7F6F463423F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */; };
-		7F84F2C1240D7B4E00571638 /* EventShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F84F2C0240D7B4E00571638 /* EventShowViewController.swift */; };
 		7F84F2C3240D7CC800571638 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F84F2C2240D7CC800571638 /* AddEventViewController.swift */; };
 		7F99C2FD2409530C002E7DB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F99C2FC2409530C002E7DB0 /* Constants.swift */; };
 		7F99C30124097296002E7DB0 /* NIBM Promo Vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F99C30024097296002E7DB0 /* NIBM Promo Vid.mp4 */; };
@@ -62,6 +64,9 @@
 		7F32E2692409161C00BC0080 /* National_Institute_of_Business_Management_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = National_Institute_of_Business_Management_Logo.png; sourceTree = "<group>"; };
 		7F32E26D24092DEF00BC0080 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		7F32E26F24092ED500BC0080 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		7F6D6E0D240E45AF0002D8D8 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		7F6D6E0F240E465A0002D8D8 /* EventShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventShow.swift; sourceTree = "<group>"; };
+		7F6D6E11240E4E9F0002D8D8 /* EventShowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventShowTableViewController.swift; sourceTree = "<group>"; };
 		7F6F460D23F7CCEB005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PASAN-PUNCHIHEWA-cobsccomp182p-033.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6F461023F7CCEB005D70F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F6F461223F7CCEB005D70F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +81,6 @@
 		7F6F462F23F7CCEE005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift; sourceTree = "<group>"; };
 		7F6F463523F7CCEE005D70F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F84F2C0240D7B4E00571638 /* EventShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventShowViewController.swift; sourceTree = "<group>"; };
 		7F84F2C2240D7CC800571638 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 		7F99C2FC2409530C002E7DB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7F99C30024097296002E7DB0 /* NIBM Promo Vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NIBM Promo Vid.mp4"; sourceTree = "<group>"; };
@@ -168,8 +172,10 @@
 				7F32E26F24092ED500BC0080 /* SignupViewController.swift */,
 				7FED46E3240C0342004BAA66 /* EventViewController.swift */,
 				7F0383C2240CDA41002A614B /* ResetPasswordViewController.swift */,
-				7F84F2C0240D7B4E00571638 /* EventShowViewController.swift */,
 				7F84F2C2240D7CC800571638 /* AddEventViewController.swift */,
+				7F6D6E0D240E45AF0002D8D8 /* EventCell.swift */,
+				7F6D6E0F240E465A0002D8D8 /* EventShow.swift */,
+				7F6D6E11240E4E9F0002D8D8 /* EventShowTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -473,12 +479,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F84F2C1240D7B4E00571638 /* EventShowViewController.swift in Sources */,
 				7F84F2C3240D7CC800571638 /* AddEventViewController.swift in Sources */,
 				7F6F461323F7CCEB005D70F6 /* ViewController.swift in Sources */,
+				7F6D6E12240E4E9F0002D8D8 /* EventShowTableViewController.swift in Sources */,
 				7FED46E6240C0617004BAA66 /* Nametags.swift in Sources */,
 				7F32E27024092ED500BC0080 /* SignupViewController.swift in Sources */,
 				7F0383C3240CDA41002A614B /* ResetPasswordViewController.swift in Sources */,
+				7F6D6E10240E465A0002D8D8 /* EventShow.swift in Sources */,
+				7F6D6E0E240E45AF0002D8D8 /* EventCell.swift in Sources */,
 				7F0D042D2406B45D008492CB /* Utilities.swift in Sources */,
 				7F32E26E24092DEF00BC0080 /* SigninViewController.swift in Sources */,
 				7F6F461923F7CCEB005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033.xcdatamodeld in Sources */,

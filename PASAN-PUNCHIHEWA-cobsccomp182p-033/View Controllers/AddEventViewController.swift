@@ -22,6 +22,7 @@ class AddEventViewController: UIViewController {
     @IBOutlet weak var EventClearBtn: UIButton!
     @IBOutlet weak var StatusLbl: UILabel!
     @IBOutlet weak var UserIDTxt: UITextField!
+    @IBOutlet weak var EvenDescriptiontxt2: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         UserIDTxt.isUserInteractionEnabled = false
@@ -50,7 +51,7 @@ class AddEventViewController: UIViewController {
         
         let eventDate = EventDateTxt.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
-        let eventDescription = EventDiscriptinTxt.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let eventDescription = EvenDescriptiontxt2.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
         let eventLocation =  EventLocationTxt.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
@@ -93,7 +94,7 @@ class AddEventViewController: UIViewController {
         EventNameTxt.text = ""
         EventDateTxt.text = ""
         EventLocationTxt.text = ""
-        EventDiscriptinTxt.text = ""
+        EvenDescriptiontxt2.text = ""
         
     }
     
