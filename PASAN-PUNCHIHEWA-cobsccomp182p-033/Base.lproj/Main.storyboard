@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5cx-d1-edR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gvv-sd-2aO">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -326,6 +326,9 @@
                                 <state key="normal" title="Get Started">
                                     <color key="titleColor" red="0.85039368283369587" green="1" blue="0.19741986014564517" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5cx-d1-edR" kind="show" id="5Ko-eY-R6d"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.045510930257521509" green="0.57965860445593997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
