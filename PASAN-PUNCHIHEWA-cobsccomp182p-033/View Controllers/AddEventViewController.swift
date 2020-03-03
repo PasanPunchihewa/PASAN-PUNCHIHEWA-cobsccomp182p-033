@@ -47,6 +47,19 @@ class AddEventViewController: UIViewController {
     
     @IBAction func EventSubmitBtnClicked(_ sender: Any) {
         
+        
+        if EventNameTxt.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            EventDiscriptinTxt.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            EventDateTxt.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            EventLocationTxt.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
+            
+            self.StatusLbl.text = "Plese fill the form"
+            self.StatusLbl.alpha = 1
+            self.ClearFields()
+            
+        }
+        else
+        {
         let eventName = EventNameTxt.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
         let eventDate = EventDateTxt.text!.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -80,7 +93,7 @@ class AddEventViewController: UIViewController {
             
             
         }
-        
+    }
     }
     @IBAction func EventClearClicked(_ sender: Any) {
         
